@@ -1,0 +1,87 @@
+*{
+box-sizing: border-box;
+}
+@font-face {
+    font-family: 'MyWebFont';
+    src: url('font/chirp.woff2') format('woff2'),
+         
+  }
+body{
+    margin: 0;
+    font-family: 'MyWebFont';
+    
+}
+a{
+    color: rgb(102, 155, 240);
+    text-decoration: none;
+}
+img{
+    text-align: center;
+}
+.left{
+    float:left;
+    padding: 15% 10%;
+    width: 35%;
+}
+.right{
+    float: right;
+    width: 55%;
+}
+.title{
+    font-size: 35px;
+}
+.subtitle{
+    font-size: 16px;
+    
+}
+.clear{
+    clear: both;
+}
+.botones{
+    border-radius: 20px;
+    background-color: white;
+    height: 40px;
+    width: 320px;
+    font-weight: bolder;
+    border-color: rgba(128, 128, 128, 0.253);
+}
+
+.roto{
+ width: 47%;
+ position: relative;
+ right: 200px;
+      }
+.texto-joputa{
+    color: grey;
+    font-size: x-small;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.bg-blue{
+    color: white;
+    background-color:rgb(29, 155, 240) ;
+}
+.text-blue{
+    color: rgb(29, 155, 240);
+}
+.bgoogle{
+    position: relative;
+  
+}
+.position{
+    position: absolute;
+    left: 20%;
+}
+.text-center{
+    text-align: center;
+    padding: 0 6%;
+    color: grey;
+    font-size: 15px;
+    line-height: 200%;
+}
+footer > a {
+    padding: 0.5%;
+    color: grey;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    
+}
